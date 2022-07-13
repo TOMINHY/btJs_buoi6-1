@@ -1,6 +1,6 @@
 /**
  * Author: To Minh Y
- * Function: Quản lý tuyển sinh
+ * Function: In số nguyên tố 
  * Release: 13/7/2022
  */
 
@@ -16,7 +16,6 @@ function inSoNguyenTo() {
     document.getElementById("ketQua").innerHTML = soNguyenTo;
 }
 document.getElementById("btnTinh").onclick = inSoNguyenTo;
-
 function kiemTra(x) {
     if(x <= 1)
         return 0;
